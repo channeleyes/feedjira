@@ -158,7 +158,7 @@ module Feedzirra
         xml = c.body_str
       end
 
-      xml
+      xml.strip
     end
 
     # Updates each feed for each Feed object provided.
